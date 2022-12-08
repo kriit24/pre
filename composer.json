@@ -8,6 +8,7 @@
             "email": "kuno@projectpartner.ee"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
       "psr-4": {
         "kriit24\\pre\\": "src/"
