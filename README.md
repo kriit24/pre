@@ -4,7 +4,7 @@ PHP-s print_r alternative
 ## Installation
 This project using composer.
 ```
-$ composer require kriit24/pre:*
+$ composer require kriit24/pre
 ```
 
 ## Usage
