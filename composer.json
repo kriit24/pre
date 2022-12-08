@@ -1,7 +1,6 @@
 {
     "name": "kriit24/pre",
     "description": "PHP print_r short",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,9 +8,13 @@
             "email": "kuno@projectpartner.ee"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
-      "psr-4": {"kriit24\\pre\\": "src/"}
+      "psr-4": {
+        "kriit24\\pre\\": "src/"
+      },
+      "files": [
+        "src/pre.php"
+      ]
     },
     "require": {}
 }
