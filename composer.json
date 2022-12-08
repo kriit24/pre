@@ -2,32 +2,16 @@
     "name": "kriit24/pre",
     "description": "PHP print_r short",
     "type": "library",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Kuno Vaik",
             "email": "kuno@projectpartner.ee"
         }
     ],
-    "require": {
-        "php": ">=5.3.0"
-    },
+    "minimum-stability": "stable",
     "autoload": {
-      "psr-4": {
-        "kriit24\\": "src/"
-      },
-      "files": [
-        "src/pre.php"
-      ]
+      "psr-4": {"kriit24\\pre\\": "src/"}
     },
-    "extra": {
-      "laravel": {
-        "providers": [
-          "kriit24\\pre"
-        ]
-      }
-    },
-    "require-dev": {
-      "orchestra/testbench": "^3.8"
-    }
+    "require": {}
 }
