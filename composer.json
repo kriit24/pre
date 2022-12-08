@@ -1,5 +1,6 @@
 {
     "name": "kriit24/pre",
+    "version": "1.0.0",
     "description": "PHP print_r short",
     "license": "MIT",
     "authors": [
@@ -9,6 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
       "psr-4": {
         "kriit24\\pre\\": "src/"
