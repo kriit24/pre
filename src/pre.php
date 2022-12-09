@@ -6,8 +6,6 @@
  * Time: 06:24
  */
 
-namespace kriit24;
-
 /*
  * USAGE
  * pre(array);

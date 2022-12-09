@@ -12,7 +12,8 @@ pre.
 ```php
 <?php
 
-use function kriit24\pre;
+//require in helper
+require_once 'vendor/kriit24/pre/src/pre.php'; 
 
 /*
  * USAGE
