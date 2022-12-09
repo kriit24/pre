@@ -1,7 +1,7 @@
 {
     "name": "kriit24/pre",
     "description": "PHP print_r short version",
-    "version": "v1.0.1",
+    "version": "v1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
